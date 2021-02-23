@@ -1,0 +1,77 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/09/2018 07:28
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-money:before { content: "\f100"; }
+.flaticon-paper-plane:before { content: "\f101"; }
+.flaticon-verified:before { content: "\f102"; }
+.flaticon-export:before { content: "\f103"; }
+.flaticon-change:before { content: "\f104"; }
+.flaticon-money-1:before { content: "\f105"; }
+.flaticon-mining:before { content: "\f106"; }
+.flaticon-blockchain:before { content: "\f107"; }
+.flaticon-bitcoin:before { content: "\f108"; }
+.flaticon-bitcoin-1:before { content: "\f109"; }
+.flaticon-wallet-1:before { content: "\f10a"; }
+.flaticon-bitcoin-2:before { content: "\f10b"; }
+.flaticon-blockchain-1:before { content: "\f10c"; }
+.flaticon-wallet:before { content: "\f10d"; }
+.flaticon-notebook:before { content: "\f10e"; }
+.flaticon-withdrawing-money-from-atm:before { content: "\f10f"; }
+.flaticon-bars:before { content: "\f110"; }
+.flaticon-right-arrow:before { content: "\f111"; }
+.flaticon-left-arrow:before { content: "\f112"; }
+    
+    $font-Flaticon-money: "\f100";
+    $font-Flaticon-paper-plane: "\f101";
+    $font-Flaticon-verified: "\f102";
+    $font-Flaticon-export: "\f103";
+    $font-Flaticon-change: "\f104";
+    $font-Flaticon-money-1: "\f105";
+    $font-Flaticon-mining: "\f106";
+    $font-Flaticon-blockchain: "\f107";
+    $font-Flaticon-bitcoin: "\f108";
+    $font-Flaticon-bitcoin-1: "\f109";
+    $font-Flaticon-wallet-1: "\f10a";
+    $font-Flaticon-bitcoin-2: "\f10b";
+    $font-Flaticon-blockchain-1: "\f10c";
+    $font-Flaticon-wallet: "\f10d";
+    $font-Flaticon-notebook: "\f10e";
+    $font-Flaticon-withdrawing-money-from-atm: "\f10f";
+    $font-Flaticon-bars: "\f110";
+    $font-Flaticon-right-arrow: "\f111";
+    $font-Flaticon-left-arrow: "\f112";

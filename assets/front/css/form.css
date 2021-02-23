@@ -1,0 +1,424 @@
+.remove-col-padding-right {
+    padding-right: 0; }
+
+.remove-col-padding-left {
+    padding-left: 0; }
+
+.padding-left-0 {
+    padding-left: 0; }
+
+.padding-right-0 {
+    padding-left: 0; }
+
+.padding-top-10 {
+    padding-top: 10px; }
+
+.padding-top-20 {
+    padding-top: 20px; }
+
+.padding-top-30 {
+    padding-top: 30px; }
+
+.padding-top-40 {
+    padding-top: 40px; }
+
+.padding-top-50 {
+    padding-top: 50px; }
+
+.padding-top-60 {
+    padding-top: 60px; }
+
+.padding-top-70 {
+    padding-top: 70px; }
+
+.padding-top-80 {
+    padding-top: 80px; }
+
+.padding-top-90 {
+    padding-top: 90px; }
+
+.padding-top-100 {
+    padding-top: 100px; }
+
+.margin-top-10 {
+    margin-top: 10px; }
+
+.margin-top-20 {
+    margin-top: 20px; }
+
+.margin-top-30 {
+    margin-top: 30px; }
+
+.margin-top-40 {
+    margin-top: 40px; }
+
+.margin-top-50 {
+    margin-top: 50px; }
+
+.margin-top-60 {
+    margin-top: 60px; }
+
+.margin-top-70 {
+    margin-top: 70px; }
+
+.margin-top-80 {
+    margin-top: 80px; }
+
+.margin-top-90 {
+    margin-top: 90px; }
+
+.margin-top-100 {
+    margin-top: 100px; }
+
+.margin-bottom-0 {
+    margin-bottom: 0px !important; }
+
+.margin-bottom-10 {
+    margin-bottom: 10px; }
+
+.margin-bottom-15 {
+    margin-bottom: 15px; }
+
+.margin-bottom-20 {
+    margin-bottom: 20px; }
+
+.margin-bottom-30 {
+    margin-bottom: 30px; }
+
+.margin-bottom-40 {
+    margin-bottom: 40px; }
+
+.margin-bottom-50 {
+    margin-bottom: 50px; }
+
+.margin-bottom-60 {
+    margin-bottom: 60px; }
+
+.margin-bottom-70 {
+    margin-bottom: 70px; }
+
+.margin-bottom-80 {
+    margin-bottom: 80px; }
+
+.margin-bottom-90 {
+    margin-bottom: 90px; }
+
+.margin-top-100 {
+    margin-bottom: 100px; }
+
+.margin-top-120 {
+    margin-top: 120px; }
+
+.padding-left-0 {
+    padding-left: 0px !important; }
+
+
+.section-title {
+    text-align: center;
+    margin-bottom: 77px; }
+.section-title.extra .title {
+    margin-bottom: 25px; }
+.section-title .title {
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 13px;
+    color: #1e3056;
+    font-weight: 700; }
+.section-title p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(30, 48, 86, 0.9); }
+
+
+
+/*---------------------
+Login Page
+----------------------*/
+.login-page-area {
+    padding: 115px 0 120px 0;
+}
+
+.login-page-area .login-form-wrapper {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 30px 250px 0px rgba(30, 48, 86, 0.05);
+    box-shadow: 0px 30px 250px 0px rgba(30, 48, 86, 0.05);
+    padding: 50px 50px 45px 50px;
+}
+
+.login-page-area .login-form-wrapper .form-element .input-field {
+    background-color: #fbfbfc;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    padding-right: 50px;
+}
+
+.login-page-area .login-form-wrapper .checkbox-area {
+    border-bottom: 1px solid #f4f4f5;
+    padding-bottom: 5px;
+}
+
+.login-page-area .login-form-wrapper .btn-wrapper .left-content {
+    display: inline-block;
+}
+
+.login-page-area .login-form-wrapper .btn-wrapper .left-content .submit-btn {
+    border-radius: 30px;
+    width: 120px;
+    border-radius: 25px;
+    height: 44px;
+    line-height: 44px;
+    font-family: "Comfortaa", cursive;
+    text-transform: none;
+    font-size: 14px;
+}
+
+.login-page-area .login-form-wrapper .btn-wrapper .left-content .submit-btn:hover {
+    -webkit-box-shadow: 0 0 35px rgba(255, 137, 57, 0.7);
+    box-shadow: 0 0 35px rgba(255, 137, 57, 0.7);
+    background-color: #ff1679;
+}
+
+.login-page-area .login-form-wrapper .btn-wrapper .right-content {
+    display: inline-block;
+    float: right;
+    padding-top: 15px;
+}
+
+.login-page-area .login-form-wrapper .btn-wrapper .right-content .anchor {
+    color: rgba(30, 48, 86, 0.7);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.login-page-area .login-form-wrapper .btn-wrapper .right-content .anchor:hover {
+    color: #ff1679;
+}
+
+.login-page-area .login-form-wrapper .from-footer {
+    text-align: center;
+    color: rgba(30, 48, 86, 0.7);
+}
+
+.login-page-area .login-form-wrapper .from-footer a {
+    color: #ff1679;
+}
+
+.login-page-area .login-form-wrapper .from-footer a:hover {
+    text-decoration: underline;
+}
+
+.form-element.margin-bottom-30 {
+    margin-bottom: 27px;
+}
+
+.form-element label {
+    color: #1e3056;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.form-element label span {
+    color: #BE1F27;
+}
+
+.form-element select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.has-icon {
+    position: relative;
+    display: block;
+}
+
+.has-icon.textarea .the-icon {
+    top: 25px;
+}
+
+.has-icon .input-field {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.has-icon .the-icon {
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    top: 70%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #7c7c90;
+
+}
+
+.input-field {
+    width: 100%;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 5px;
+    color: #7c7c90;
+}
+
+.input-field::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #7c7c90;
+}
+
+.input-field:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #7c7c90;
+}
+
+.input-field::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #7c7c90;
+}
+
+.input-field:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #7c7c90;
+}
+
+.input-field.borderd {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.input-field.borderd:focus {
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.input-field.textarea {
+    min-height: 120px;
+    padding: 20px 30px;
+    resize: none;
+}
+
+.input-field.error {
+    border: 1px solid #ff1679;
+}
+
+.input-field.error::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #ff1679;
+}
+
+.input-field.error:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ff1679;
+}
+
+.input-field.error::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ff1679;
+}
+
+.input-field.error:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #ff1679;
+}
+
+.input-field.error:focus {
+    border-color: #ff1679;
+}
+
+.email-success {
+    display: block;
+    width: 100%;
+}
+
+.checkbox-element {
+    display: inline-block;
+}
+
+.checkbox-wrapper {
+    display: inline-block;
+}
+
+.checkbox-inner {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(30, 48, 86, 0.7);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-inner input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox-inner .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 2px solid #ff1679;
+    border-radius: 2px;
+}
+
+.checkbox-inner .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-inner input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-inner .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #ff1679;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*input and button type focus outline disable*/
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+select:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #ddd;
+}
+.top-up10{
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    top: 55%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #7c7c90;
+}

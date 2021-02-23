@@ -1,0 +1,18 @@
+.img-height-40{
+    height: 40px !important;
+}
+
+.propic{
+    width: 100%;
+}
+.text-decoration{
+    text-decoration: none !important;
+}
+.margin-top-20{
+    margin-top: 20px !important;
+}
+.help-block,
+.error{
+    color: red;
+    font-weight: bold;
+}
