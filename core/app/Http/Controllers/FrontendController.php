@@ -53,14 +53,15 @@ class FrontendController extends Controller
             "type" => "article",
             "topicOR" => "Digital+Dollar,Digital+Euro,Futures,Mining,Stablecoins,Tanalysis,Taxes,Upgrade,Whales",
             "sortby" => "rank",
+            "fallback" => "true",
             "items" => "5",
             "page" => 1
         );
 
         if(request("page") != NULL) $param["page"] = request("page");
         if(request("date") != NULL) $param["date"] = request("date");
-        if(request("topicOR") != NULL) $param["topicOR"] = request("topicOR");
-        if(request("search") != NULL) $param["search"] = request("search");
+        if(request("topic") != NULL) $param["topicOR"] = request("topic");
+        //if(request("search") != NULL) $param["search"] = request("search");
         if(request("sentiment") != NULL) $param["sentiment"] = request("sentiment");
 
         foreach($param as $key => $value) $url .= "&" . $key . "=" . $value;

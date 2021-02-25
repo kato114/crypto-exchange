@@ -1460,7 +1460,7 @@
 	}
 	/* header */
 	.header {
-		background: #1546a9;
+		background: #041e37;
 	}
 
 	/* logo */
@@ -1483,8 +1483,9 @@
 
 	/* main menu */
 	.header .main-menu {
-		padding: 20px 0;
+		padding: 0;
 		background: #1546a9;
+		margin-top: 15px;
 		display: none;
 	}
 	.header .main-menu ul {

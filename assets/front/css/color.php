@@ -133,7 +133,7 @@ width: 185px;
 cursor: pointer;
 }
 .exchange-now {
-margin-bottom: 160px;
+margin-bottom: 100px;
 }
 .exchange-now button {
 background: <?php echo $color ?>;
@@ -184,7 +184,7 @@ width: 100%;
 
 /* payout */
 .payout-area {
-padding: 120px 0 106px;
+padding: 0px 0 106px;
 background: #f9f9f9;
 }
 
@@ -2095,7 +2095,7 @@ border: 1px solid #00c7f2;
 
 /* client comments */
 .client-comments {
-padding: 120px 0 205px;
+padding: 0px;
 position: relative;
 }
 .client-comments .all-comments {

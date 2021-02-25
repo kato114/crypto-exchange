@@ -168,6 +168,30 @@
 
 
 
+    <div class="client-comments">
+        <div class="container">
+            <div class="row justify-content-xl-between justify-content-sm-center">
+                <div class="col-lg-12">
+                    <div class="all-comments">
+                        @foreach($testimonial as $data)
+                        <div class="single-comment">
+                            <div class="part-img">
+                                <img src="{{asset('assets/images/testimonial/'.$data->image)}}" alt="..." class="rounded-circle">
+                            </div>
+                            <div class="part-text">
+                                <h3>{{$data->name}}</h3>
+                                <h4>{{$data->designation}}</h4>
+                                <p>{!! $data->details !!}</p>
+                            </div>
+                        </div>
+                            @endforeach
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <div class="signup-area">
         <div class="container">
@@ -200,60 +224,7 @@
     </div>
 
 
-    <div class="client-comments">
-
-        <div class="container">
-            <div class="row justify-content-xl-between justify-content-sm-center">
-                <div class="col-lg-12">
-                    <div class="all-comments">
-                        @foreach($testimonial as $data)
-                        <div class="single-comment">
-                            <div class="part-img">
-                                <img src="{{asset('assets/images/testimonial/'.$data->image)}}" alt="..." class="rounded-circle">
-                            </div>
-                            <div class="part-text">
-                                <h3>{{$data->name}}</h3>
-                                <h4>{{$data->designation}}</h4>
-                                <p>{!! $data->details !!}</p>
-                            </div>
-                        </div>
-                            @endforeach
-
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-    </div>
-
-
 
 @endsection
 @section('js')
-
-    <script>
-        $(document).ready(function () {
-            var from_amount = $(".from_amount").val();
-            var receive_amount = $(".receive_amount").val();
-
-            $(".from_amount, #from_currency_id, .receive_amount, #receive_currency_id ").on('keyup change', function () {
-
-                var enterAmount = $(".from_amount").val();
-                var fromAmountPrice = $("#from_currency_id option:selected").data('price');
-                var fromAmountExchangeCharge = $("#from_currency_id option:selected").data('exchange');
-
-                var receiveAmountPrice = $("#receive_currency_id option:selected").data('price');
-                var receiveAmountExchangeCharge = $("#receive_currency_id option:selected").data('exchange');
-
-
-                var getAmountTotal = parseFloat((receiveAmountPrice/ fromAmountPrice)*enterAmount);
-                var chargeFromTotalAmoFromEnter = parseFloat((getAmountTotal*receiveAmountExchangeCharge)/100);
-                var getAmountInput = parseFloat((getAmountTotal - chargeFromTotalAmoFromEnter));
-                $(".receive_amount").val(getAmountInput.toFixed(8));
-            });
-
-        });
-    </script>
 @endsection

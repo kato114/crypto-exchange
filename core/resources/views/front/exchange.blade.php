@@ -1,6 +1,11 @@
 @extends('layout')
 
 @section('css')
+<style>
+    .site-logo {
+        width: 100%;
+    }
+</style>
 @endsection
 @section('content')
 
@@ -15,6 +20,11 @@
     <div class="processing-area confirmation-area">
         <div class="container">
             <div class="row">
+                <div class="col-xl-6">
+                    <div class="part-content">
+                        <h2>Check The Exchange Balance & Have A Look At The Transfer Details</h2>
+                    </div>
+                </div>
                 <div class="col-xl-6">
                     <form action="{{route('exchange.amount')}}" method="post">
                         @csrf
@@ -73,10 +83,85 @@
                         </div>
                     </form>
                 </div>
-                <div class="col-xl-6">
-                    <div class="part-content">
-                        <h2>Check The Exchange Balance & Have A Look At The Transfer Details</h2>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="text-center">Other Exchange Websites</h4>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://www.binance.com/en?ref=1016259">
+                        <img class="site-logo" src="{{asset('assets/images/others/binance.png')}}" alt="">
+                        <p class="text-center">https://www.binance.com</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://www.kucoin.com/">
+                        <img class="site-logo" src="{{asset('assets/images/others/bitforex.png')}}" alt="">
+                        <p class="text-center">https://www.kucoin.com</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://www.coinbase.com/">
+                        <img class="site-logo" src="{{asset('assets/images/others/bittrex.png')}}" alt="">
+                        <p class="text-center">https://www.coinbase.com</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://hitbtc.com/btc-to-usdt">
+                        <img class="site-logo" src="{{asset('assets/images/others/coinbase.png')}}" alt="">
+                        <p class="text-center">https://www.hitbtc.com</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://www.gate.io/">
+                        <img class="site-logo" src="{{asset('assets/images/others/coinbase_pro.png')}}" alt="">
+                        <p class="text-center">https://www.gate.io</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://pro.coinbase.com/">
+                        <img class="site-logo" src="{{asset('assets/images/others/gate.png')}}" alt="">
+                        <p class="text-center">https://pro.coinbase.com</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://www.kraken.com/en-us/">
+                        <img class="site-logo" src="{{asset('assets/images/others/gemni.png')}}" alt="">
+                        <p class="text-center">https://www.kraken.com</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://www.gemini.com/">
+                        <img class="site-logo" src="{{asset('assets/images/others/hitbtc.png')}}" alt="">
+                        <p class="text-center">https://www.gemini.com</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://www.mxc.co/">
+                        <img class="site-logo" src="{{asset('assets/images/others/hotbit.png')}}" alt="">
+                        <p class="text-center">https://www.mxc.co</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://bittrex.com/home/markets">
+                        <img class="site-logo" src="{{asset('assets/images/others/kraken.png')}}" alt="">
+                        <p class="text-center">https://global.bittrex.com</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://www.bitforex.com/en/">
+                        <img class="site-logo" src="{{asset('assets/images/others/kucoin.png')}}" alt="">
+                        <p class="text-center">https://www.bitforex.com</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-3">
+                    <a class="text-black" target="_blank" href="https://www.hotbit.pro/">
+                        <img class="site-logo" src="{{asset('assets/images/others/mxc.png')}}" alt="">
+                        <p class="text-center">https://www.hotbit.pro</p>
+                    </a>
                 </div>
             </div>
         </div>

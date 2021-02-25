@@ -8,10 +8,6 @@
         </div>
     </div>
 
-
-
-
-
     <div class="affilate-area">
         <div class="container">
             <div class="row">
